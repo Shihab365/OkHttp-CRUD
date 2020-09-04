@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#113A33"
+    android:weightSum="3"
+    android:orientation="vertical"
+    tools:context=".SingleFileActivity">
+
+    <LinearLayout
+        android:layout_weight="1.2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:textColor="#01B107"
+            android:textAllCaps="false"
+            android:text="SINGLE FILE CRUD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnFileCreateId"
+            android:textAllCaps="false"
+            android:textColor="#113A33"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="CREATE"
+            android:layout_margin="10dp"
+            android:background="#01B107"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/btnFileReadId"
+            android:textAllCaps="false"
+            android:textColor="#113A33"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="READ ALL"
+            android:layout_margin="10dp"
+            android:background="#01B107"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/btnFileUpdateId"
+            android:textAllCaps="false"
+            android:textColor="#113A33"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="UPDATE"
+            android:layout_margin="10dp"
+            android:background="#01B107"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/btnFileDeleteId"
+            android:textAllCaps="false"
+            android:textColor="#113A33"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="DELETE"
+            android:layout_margin="10dp"
+            android:background="#01B107"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1.3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:padding="10dp"
+            android:gravity="center|bottom"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#01B107"
+            android:textAllCaps="false"
+            android:text="[ OkHttp ]"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

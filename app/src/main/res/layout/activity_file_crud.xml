@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="#E91E63"
+    tools:context=".FileCrudActivity">
+
+    <LinearLayout
+        android:layout_weight="1.2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center"
+            android:text="FILE CRUD"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="#8A0936"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center|left"
+        android:layout_weight="0.9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnSingleFileId"
+            android:layout_marginLeft="40dp"
+            android:textAllCaps="false"
+            android:textColor="#FF0056"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="SINGLE"
+            android:rotation="45"
+            android:background="#8A0936"
+            android:layout_width="140dp"
+            android:layout_height="140dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center|right"
+        android:layout_weight="0.9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnMultiFileId"
+            android:layout_marginRight="40dp"
+            android:textAllCaps="false"
+            android:textColor="#FF0056"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="MULTI"
+            android:rotation="45"
+            android:background="#8A0936"
+            android:layout_width="140dp"
+            android:layout_height="140dp"/>
+    </LinearLayout>
+</LinearLayout>
